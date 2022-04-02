@@ -2,9 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import SideBar from "./components/SideBar";
 
-function App() {
-  const [count, setCount] = useState(0);
 
+function App() {  
   return (
     <div className="flex  h-screen">
       <div className=" h-full  md:w-[20%] bg-black">
