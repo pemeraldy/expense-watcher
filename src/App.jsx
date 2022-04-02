@@ -7,7 +7,7 @@ import TransactionSummary from "./components/TransactionSummary";
 
 function App() {  
   return (
-    <div className="flex  h-screen">
+    <div className="flex overflow-hidden  h-screen">
       <div className=" hidden md:block h-full md:w-[20%] bg-black">
         <SideBar />
       </div>
