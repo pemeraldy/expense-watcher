@@ -8,7 +8,7 @@ export default function NavItem({ Icon, text, isActive }) {
   return (
     <li      
       className={`flex cursor-pointer ${
-        isActive ? "text-gray-300" : "text-gray-600"
+        isActive ? "text-gray-200" : "text-gray-400"
       } items-center font-normal`}
     >
       <Icon className="h-5 w-5 " />
