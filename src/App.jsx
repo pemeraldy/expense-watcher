@@ -9,8 +9,8 @@ function App() {
       <div className=" h-full  md:w-[20%] bg-black">
         <SideBar />
       </div>
-      <div className=" h-full md:w-[30%] bg-gray-300"></div>
-      <div className=" flex-1 h-full bg-gray-600"></div>
+      <div className=" h-full md:w-[25%] bg-gray-50 border-r border-gray-300"></div>
+      <div className=" flex-1 h-full bg-gray-50"></div>
     </div>
   );
 }

@@ -9,17 +9,17 @@ export default function SideBar() {
         Logo
       </a>
       <ul className=" space-y-10">
-        <NavItem Icon={BeakerIcon} text="home" />
+        <NavItem Icon={BeakerIcon} isActive={true} text="home" />
         <NavItem Icon={CreditCardIcon} text="Card" />
         <NavItem Icon={ClipboardCheckIcon} text="Payment" />
         <NavItem Icon={UserIcon} text="Account" />
         <NavItem Icon={CogIcon} text="Settings" />
       </ul>
       <div className="absolute bottom-10 flex flex-col">
-        <NavItem Icon={LogoutIcon} isActive={true} text="Logout" className="block" />
+        <NavItem Icon={LogoutIcon} text="Logout" className="block" />
         <div className="flex cursor-pointer items-center mt-10">
           <div className=" w-10 h-10 bg-white rounded-full"></div>
-          <div className="text-white ml-4">
+          <div className="text-gray-400 hover:text-gray-50 ml-4">
             <span className="block">Yope</span>
             <span className="block">Yopee@mail.com</span>
           </div>
